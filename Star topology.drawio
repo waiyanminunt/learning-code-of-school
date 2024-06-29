@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-06-29T05:17:09.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.0.7" etag="lAqpXfdp1L5hlr8xAC5H" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-29T05:36:44.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ak7a118qbtuwbJyJb9iN" version="24.0.7" type="github">
   <diagram name="Page-1" id="-h_DLX4nTjVOTH4XeqH2">
-    <mxGraphModel>
+    <mxGraphModel dx="548" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EXvWndgJi1LYddu3C52r-4" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-5" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="170" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-6" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="302" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-7" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="50" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EXvWndgJi1LYddu3C52r-12" target="EXvWndgJi1LYddu3C52r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EXvWndgJi1LYddu3C52r-12" target="EXvWndgJi1LYddu3C52r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-12" value="" style="shape=mxgraph.cisco.switches.layer_2_remote_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="209.5" y="175.5" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EXvWndgJi1LYddu3C52r-12" target="EXvWndgJi1LYddu3C52r-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="240" as="sourcePoint" />
+            <mxPoint x="170" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXvWndgJi1LYddu3C52r-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EXvWndgJi1LYddu3C52r-12" target="EXvWndgJi1LYddu3C52r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
