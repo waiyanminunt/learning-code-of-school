@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T08:24:07.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="C0_bt9KFhEt7__E6IHh2" version="24.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T08:42:50.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LWIp41tAso9c7IRcn9Gu" version="24.7.0" type="github">
   <diagram name="Page-1" id="mWOwHAFnnGotzb68UGMo">
     <mxGraphModel dx="880" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,16 +22,16 @@
         <mxCell id="QFhtb_JTBLAtstihDLr0-8" value="" style="shape=mxgraph.cisco.switches.layer_2_remote_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="368" y="547" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QFhtb_JTBLAtstihDLr0-11" value="IT" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+        <mxCell id="QFhtb_JTBLAtstihDLr0-11" value="Router For IT" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="240" y="536" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QFhtb_JTBLAtstihDLr0-14" value="Management" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+        <mxCell id="QFhtb_JTBLAtstihDLr0-14" value="Router for Management" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="456" y="637" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QFhtb_JTBLAtstihDLr0-15" value="HR and Finance" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+        <mxCell id="QFhtb_JTBLAtstihDLr0-15" value="Router for HR and Finance" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="256" y="637" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QFhtb_JTBLAtstihDLr0-16" value="Others" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+        <mxCell id="QFhtb_JTBLAtstihDLr0-16" value="Router for Others" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="526" y="536" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QFhtb_JTBLAtstihDLr0-17" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QFhtb_JTBLAtstihDLr0-11" target="QFhtb_JTBLAtstihDLr0-8" edge="1">
@@ -175,8 +175,8 @@
             <mxPoint x="410" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="E-c_TPkN4qfoy3ML_oav-31" value="Attacker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="515" y="77" width="70" height="30" as="geometry" />
+        <mxCell id="E-c_TPkN4qfoy3ML_oav-31" value="Attack node" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="505" y="77" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6wvi-4wZgXXVieuaFHjE-1" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="218" y="333.5" width="38" height="39" as="geometry" />
@@ -188,7 +188,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6wvi-4wZgXXVieuaFHjE-3" value="Next generation firewall&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="425" y="248" width="150" height="30" as="geometry" />
+          <mxGeometry x="425" y="238" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wvi-4wZgXXVieuaFHjE-14" value="Router" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="148" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wvi-4wZgXXVieuaFHjE-15" value="L3 Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="197" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wvi-4wZgXXVieuaFHjE-16" value="L2 Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="422" y="335" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6wvi-4wZgXXVieuaFHjE-17" value="L2 Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
